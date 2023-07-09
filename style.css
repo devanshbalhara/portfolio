@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+.navbar {
+    font-size: 18px;
+    padding: 0 2em;
+    margin-bottom: 4em;
+}
+
+body {
+    background-color: #ddefff;
+}
+
+#resume-button {
+    padding: 6px 40px;
+    border-radius: 5px;
+    background: #b3cee5;
+    border: 3px #005A9C solid;
+    transition-timing-function: linear;
+    transition: transform 0.5s;
+    margin-top: 1rem;
+}
+
+#resume-button:hover {
+    scale: 1.04;
+}
+
+.header {
+    background: linear-gradient(45deg, #005A9C, white, rgb(175, 74, 175));
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5em;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.gallery-container img {
+    height: 110px;
+    margin: 0 10px;
+    transition: linear 0.2s;
+}
+
+.gallery-container img:hover {
+    scale: 1.2;
+}
+
+.gallery-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+#myimg {
+    border-radius: 50%;
+    border: 5px solid #005A9C;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.nav-item {
+    width: 8em;
+    border-radius: 3px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: center;
+    background-color: #b3cee5;
+}
+
+.nav-item:hover {
+    scale: 1.03;
+}
+
+.fa {
+    color: #005A9C;
+    transition: transform 0.5s;
+    margin: 1rem 12px 0 0;
+}
+
+.fa:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.section-heading {
+    font-family: 'Sofia', cursive;
+    justify-content: center;
+}
+
+.component {
+    margin-bottom: 5em;
+}
+
+.edu,
+.proj {
+    padding: 1rem;
+}
+
+.edu-card {
+    border: 5px solid #005A9C;
+    padding: 1em;
+    background-color: #b3cee5;
+}
+
+.navbar-brand {
+    font-family: 'Sofia', cursive;
+    font-size: 2rem;
+}
+
+.proj-card {
+    text-align: center;
+    border: 5px solid #005A9C;
+    background-color: #b3cee5;
+}
+
+.proj-img {
+    width: 100%;
+}
+
+.git-link {
+    outline: none;
+    display: inline-block;
+    border: none;
+    background-color: #79b4e8;
+    padding: 7px 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.git-link:hover {
+    text-decoration: none;
+    color: black;
+    scale: 1.03;
+}
+
+.info {
+    width: 100%;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #b3cee5;
+    text-align: center;
+    padding: 6px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #b3cee5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #005A9C;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #005A9C;
+}
